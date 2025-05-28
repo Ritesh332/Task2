@@ -19,9 +19,10 @@ DKIM: Not authenticated ❌ and not aligned ❌.
 These failures mean the email can be spoofed without being rejected by many servers.
 
 3. Suspicious URLs
+   
 URL embedded in email:
 
-[Suspicious URL](https://khaleghishop.com/wp-login.php?login=www.iygtfr.blogspot.li...)(**Open at your own risk**)
+https://khaleghishop.com/wp-login.php?login=www.iygtfr.blogspot.li...(**Open at your own risk**)
 
 Appears to use a real-looking domain but hides iygtfr.blogspot.li inside the query string — very suspicious.
 
