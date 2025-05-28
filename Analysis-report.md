@@ -1,4 +1,4 @@
-🔍 Key Phishing Indicators from My Analysis
+# 🔍 Key Phishing Indicators from My Analysis
 1. Suspicious Sender
 Displayed as: wordpress@khaleghishop.com
 ![Email Screenshot](screenshots/email_screenshot.png)
@@ -23,7 +23,7 @@ URL embedded in email:
 
 [Suspicious URL](https://khaleghishop.com/wp-login.php?login=www.iygtfr.blogspot.li...)
 
-# Open at your own risk
+**Open at your own risk**
 Appears to use a real-looking domain but hides iygtfr.blogspot.li inside the query string — very suspicious.
 
 Link tries to mimic a login page to phish credentials.
