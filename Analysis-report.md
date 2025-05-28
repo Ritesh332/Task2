@@ -8,6 +8,7 @@ Email impersonates: WordPress login alert, possibly for a business/store.
 Mismatch: “wordpress” is a common service name used to build false trust.
 
 2. Spoofed Domain
+   ![SPF and DKIM screenshot](screenshots/spf_dkim_info.png)
 No DMARC record found for khaleghishop.com (DMARC = Domain-based Message Authentication).
 
 SPF: Authenticated ✅ but not aligned ❌.
@@ -19,10 +20,7 @@ These failures mean the email can be spoofed without being rejected by many serv
 3. Suspicious URLs
 URL embedded in email:
 
-arduino
-Copy
-Edit
-https://khaleghishop.com/wp-login.php?login=www.iygtfr.blogspot.li...
+[Suspicious URL](https://khaleghishop.com/wp-login.php?login=www.iygtfr.blogspot.li...)
 Appears to use a real-looking domain but hides iygtfr.blogspot.li inside the query string — very suspicious.
 
 Link tries to mimic a login page to phish credentials.
