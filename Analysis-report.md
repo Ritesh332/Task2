@@ -9,7 +9,7 @@ Mismatch: “wordpress” is a common service name used to build false trust.
 
 
 2. Spoofed Domain
-   ![Header Analysis](screenshots/email_header.png)
+![Header Analysis](screenshots/email_header.png)
 No DMARC record found for khaleghishop.com (DMARC = Domain-based Message Authentication).
 
 SPF: Authenticated ✅ but not aligned ❌.
@@ -21,9 +21,8 @@ These failures mean the email can be spoofed without being rejected by many serv
 3. Suspicious URLs
 URL embedded in email:
 
-[Suspicious URL](https://khaleghishop.com/wp-login.php?login=www.iygtfr.blogspot.li...)
+[Suspicious URL](https://khaleghishop.com/wp-login.php?login=www.iygtfr.blogspot.li...)(**Open at your own risk**)
 
-**Open at your own risk**
 Appears to use a real-looking domain but hides iygtfr.blogspot.li inside the query string — very suspicious.
 
 Link tries to mimic a login page to phish credentials.
@@ -35,7 +34,7 @@ Subject: “Login details” → creates urgency.
 Email contains no official branding or company details.
 
 5. Header Hop Trace (MXToolbox)
-   ![SPF and DKIM screenshot](screenshots/spf_dkim_info.png)
+![SPF and DKIM screenshot](screenshots/spf_dkim_info.png)
 Mail relayed through maillii.org and centraldnserver.com, both unknown and suspicious hosts.
 
 One of the relays (sregw88.maillii.org) is blacklisted ❌.
