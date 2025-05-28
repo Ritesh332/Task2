@@ -17,6 +17,5 @@ In this analysis, I examined a suspicious email to identify phishing indicators.
 ### ⚠️ Disclaimer
 This project is created strictly for educational and research purposes. It is intended to inform and raise awareness.
 
-This project is created strictly for educational and research purposes. It demonstrates phishing email analysis to help individuals recognize
-and defend against malicious emails.
 ---
+
