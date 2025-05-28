@@ -1,6 +1,6 @@
 # Task2
 
-##Phishing Email Analysis: khaleghishop.com
+## Phishing Email Analysis: khaleghishop.com
 
 ### 🎯 Objective
 Analyze a suspicious email to identify phishing indicators using email headers, links, and metadata.
