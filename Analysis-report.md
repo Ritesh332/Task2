@@ -22,7 +22,7 @@ These failures mean the email can be spoofed without being rejected by many serv
    
 URL embedded in email:
 
-https://khaleghishop.com/wp-login.php?login=www.iygtfr.blogspot.li... (**Open at your own risk**)
+https://khaleghishop.com/wp-login.php?login=www.iygtfr.blogspot.li... (**⚠️Open at your own risk**)
 
 Appears to use a real-looking domain but hides iygtfr.blogspot.li inside the query string — very suspicious.
 
